@@ -1,0 +1,19 @@
+WELCOME TO NAMANGA HOPE CENTER APPLICATION
+
+Thank you for choosing the Namanga Hope Center application. This software is designed to help manage and organize information related to children’s homes.
+
+**Features:**
+- Input and manage data for children in the home, including names, phone numbers, and images.
+- View detailed profiles for each child.
+- Easy-to-use interface for efficient data entry and retrieval.
+
+**Installation Instructions:**
+1. Run the installer and follow the prompts.
+2. Once installed, launch the application from your desktop or start menu.
+3. Familiarize yourself with the user interface to get started.
+
+**Usage Guidelines:**
+- This application is intended for authorized personnel only. Please ensure that all data entered is handled with confidentiality and respect for the individuals involved.
+- For any issues or inquiries, please contact support at [your email/contact info].
+
+**Thank you for supporting the Namanga Hope Center!**

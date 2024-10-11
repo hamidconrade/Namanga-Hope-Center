@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+; Registry entries for Namanga Hope Center Application Version 1.0
+
+[HKEY_CURRENT_USER\Software\NamangaHopeCenter]
+"InstallPath"="C:\\Program Files\\Namanga Hope Center"
+"Version"="1.0"
+"LastOpened"="2024-10-11"  ; This can be updated when the application is launched
+
+[HKEY_CURRENT_USER\Software\NamangaHopeCenter\Settings]
+"Theme"="Light"  ; Default theme for version 1.0
+"Language"="en-US"  ; Default language
+"NotificationEnabled"=dword:00000001  ; Notifications are enabled
+
+[HKEY_LOCAL_MACHINE\Software\NamangaHopeCenter]
+"InstallationDate"="2024-10-11"  ; The installation date
+
+[HKEY_CLASSES_ROOT\.nhc]
+@="Namanga Hope Center Document"
+
+[HKEY_CLASSES_ROOT\Namanga Hope Center Document]
+@="Namanga Hope Center Document File"
+"Edit"="\"C:\\Program Files\\Namanga Hope Center\\NamangaHopeCenter.exe\" \"%1\""

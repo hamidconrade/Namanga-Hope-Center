@@ -1,0 +1,22 @@
+LICENSE AGREEMENT FOR NAMANGA HOPE CENTER SOFTWARE
+
+1. Purpose
+This software is designed to support the management and organization of information related to children’s homes. It is intended for use by authorized personnel only.
+
+2. Grant of License
+You are granted a non-exclusive, non-transferable license to use this software for its intended purpose within the Namanga Hope Center community.
+
+3. Restrictions
+- This software is not to be used for any commercial purpose.
+- You may not modify, distribute, or create derivative works from the software without permission.
+
+4. Confidentiality
+Users must ensure that all data entered into the system is treated with confidentiality and respect for the individuals involved.
+
+5. Limitation of Liability
+The developers are not liable for any damages arising from the use or inability to use this software.
+
+6. Governing Law
+This agreement shall be governed by the laws of [Your Country].
+
+END OF TERMS
