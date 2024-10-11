@@ -1,0 +1,35 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Departments" Height="384" Width="800">
+
+    <Grid Margin="10,0,-10,-6">
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="367" HorizontalAlignment="Left" Margin="189,-4,0,-114"/>
+        <Button Name="BeneficiariesButton" Content="Beneficiaries" Margin="35,66,540,260" Click="BeneficiariesButton_Click"/>
+        <Button Name="FinanceButton" Content="Finance" Margin="35,212,540,118" Click="FinanceButton_Click"/>
+        <Button Name="SecurityButton" Content="Security" Margin="35,289,540,44" Click="SecurityButton_Click"/>
+        <Button Name="ProgramsButton" Content="Programs" Margin="517,66,48,260" Click="ProgramsButton_Click"/>
+        <Button Name="ManagementButton" Content="Management" Margin="517,139,48,187" Click="ManagementButton_Click"/>
+        <Button Name="WelfareButton" Content="Welfare" Margin="35,139,540,187" Click="WelfareButton_Click"/>
+        <Button Name="ResourcesButton" Content="Resources" Margin="517,212,48,118" Click="ResourcesButton_Click"/>
+        <Button Name="AlumniButton" Content="Alumni" Margin="517,289,48,44" Click="AlumniButton_Click"/>
+
+        <TextBox x:Name="FlashingTextBox"
+                 Width="638" 
+                 Height="44" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 Text="WHICH DEPARTMENT DO YOU WISH TO VISIT?"
+                 IsReadOnly="True"
+                 TextWrapping="Wrap"
+                 Margin="48,2,0,0"
+                 FontSize="30" 
+                 Background="Transparent"/>
+
+
+    </Grid>
+</Window>

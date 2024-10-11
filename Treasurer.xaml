@@ -1,0 +1,20 @@
+﻿<Window x:Class="Treasurer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Treasurer" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Text="Enter the Treasurer, Hon. Joshua Lengete, whose trustworthy level far beyond surpass any other member of the Namanga Hope Center fraternity. He not only recives money on behalf of everyone at the center but also keeps it safely, with the help of others in the board, until it is needed for use in programs. His accounting experience is extreemly valuable ecspecilly for financial decision making and related role. For any kind of expenditure it is also worth noting that he expedites release of funds a habit which facilitates smooth running of programs in the Center." 
+          IsReadOnly="True" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,4,0,0" FontSize="20" Height="280" />
+        <Image Source="pack://application:,,,/Resources/director1.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="300" Height="400" Grid.Column="1" Margin="0,-17,0,0" />
+        <Button Content="Email Treasurer" Width="120" Height="40" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,360,0,0" Grid.Column="1" Click="EmailButton_Click"/>
+        <Image Source="pack://application:,,,/Resources/logo.png" HorizontalAlignment="Left" VerticalAlignment="Top" Width="154" Height="152" Grid.Row="0" Margin="0,284,0,0" />
+    </Grid>
+</Window>

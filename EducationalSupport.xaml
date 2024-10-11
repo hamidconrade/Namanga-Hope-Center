@@ -1,0 +1,27 @@
+﻿<Window x:Class="Namanga_Hope_Center.EducationalSupport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="EducationalSupport" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="0" Name="InfoTextBox" 
+                 TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" Margin="0,0,0,187">
+            Educational Support Program: 
+            Our educational support program provides various resources and assistance to children in need.
+            We focus on enhancing learning opportunities and creating a supportive environment for academic growth. The e4xact method we implement is by locating school droputs and those who may be in school but have insufficient school fees. Once they have been located we take their details and then intergrate them into available learning opportunities. This program aims at equiping vulnurablr children with knowledge and skills in order to make them live favourably with others within the society. Some of the schools already onboard include among others; Namanga Mixed Secondary School, mashuuru Boys high School, AIC Primary Namanga,Oloolaroi Ptimary school and Inaarolukuny Primary School. It is an all round intergrated program and and schools select schools have gotten desks, textbooks, uniforms and other school supplies. students on their part get schoolfees paid to their schoolo accounts
+        </TextBox>
+
+        <Image Grid.Column="1" Name="SlideshowImage" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button Content="Programs" x:Name="ProgramsButton" Height="40" Click="ProgramsButton_Click" Panel.ZIndex="1" Margin="190,384,10,10"/>
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="173" Height="179" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,248,0,0"/>
+
+    </Grid>
+</Window>

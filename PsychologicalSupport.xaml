@@ -1,0 +1,33 @@
+﻿<Window x:Class="Namanga_Hope_Center.PsychologicalSupport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="PsychologicalSupport" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="0" Name="InfoTextBox"
+                 TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" 
+                 Margin="10" VerticalAlignment="Stretch">
+            Psychological Support Program: 
+            Our psychological support program aims to provide emotional and mental well-being services. We work with trained certified counselors to help patients deal with trauma, anxiety, and other psychological challenges. Through individualized and group therapy sessions, we strive to create a safe space where affected parsons can express themselves and heal emotionally. It is in this angle that we closely encorporate religion and have a whole church for closure. In church, we conduct midday all weekday and last friday of the month night prayers where people have the opportunity to look onto a more non_personalised solutions source to their problems rather than put too much pressure on themselves and those arround them. it is in this ssame program that ethical living is cultured into our beneficiaries in a soft acceptable logic that renders them Godly. We also conduct home fellowship once in a week other than sunday service
+        </TextBox>
+
+        <Image Grid.Column="1" Name="SlideshowImage" Stretch="Uniform" 
+               HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <Button Content="Programs" x:Name="ProgramsButton" Height="40" 
+                Click="ProgramsButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                Margin="10"/>
+
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="100" Height="100"
+               HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10"/>
+
+    </Grid>
+</Window>

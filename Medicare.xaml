@@ -1,0 +1,28 @@
+﻿<Window x:Class="Namanga_Hope_Center.Medicare"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Medicare" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*" />
+            <ColumnDefinition Width="81*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="0" Text="NAMANGA HOPE CENTER values the importance of accessing quality healthcare service and we leave nothing to chance. Some of those ib our programs are being natured into becoming HEALTH PRACTITIONERS. At the same time we are patnering with leading health institutions to offer quality health services to needy resisdences in our scope of coverage. Medical camps at subsidized fees and sometimes free services attatched to them are a norm with NAMANGA HOPE CENTER mediacal camps. More ften than not, villagers gather here too while enroute to hospitals for a top up on their medical fees. Infact several special needs people have been intergrated in our system and though we dont identify as a special needs institution we take in those with health challenges and try as much as much as possible to link them to professional healthcare" 
+                 IsReadOnly="True" FontSize="14" TextWrapping="Wrap" Margin="10,10,400,10" Grid.ColumnSpan="2"/>
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="182" Height="145" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,299,0,0"/>
+
+
+
+        <Grid Grid.Column="1" Margin="10,10,0,-10">
+            <Button Content="Programs" x:Name="ProgramsButton" Height="40" Click="ProgramsButton_Click" Panel.ZIndex="1" Margin="-222,376,417,18"/>
+        </Grid>
+        <Image x:Name="SlideshowImage" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center" Height="0" Width="0"/>
+
+    </Grid>
+</Window>

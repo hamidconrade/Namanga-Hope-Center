@@ -1,0 +1,28 @@
+﻿<Window x:Class="Board" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Board" Height="450" Width="800">
+    <Grid>
+
+        <Image Source="pack://application:,,,/Resources/director1.png" Width="196" HorizontalAlignment="Left" Margin="0,94,0,110"/>
+        <Image Source="pack://application:,,,/Resources/secretary.png" Width="143" HorizontalAlignment="Left" Margin="305,96,0,110"/>
+        <Image Source="pack://application:,,,/Resources/ImageTreasurer.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="654,141,0,263"/>
+
+        <Button Content="Chairman" Width="100" Height="30" HorizontalAlignment="Left" Margin="26,42,0,362"/>
+        <Button Content="Secretary" Width="100" Height="30" HorizontalAlignment="Left" Margin="328,42,0,362"/>
+        <Button Content="Treasurer" Width="100" Height="30" HorizontalAlignment="Left" Margin="606,42,0,362"/>
+
+        <TextBox Text="Richard Lolkinyo Nyinge" IsReadOnly="True" Width="192" Height="30" HorizontalAlignment="Left" Margin="4,338,0,66" Foreground="Red" 
+         FontSize="16"/>
+        <TextBox Text="Mary Thiga Nduta" IsReadOnly="True" Width="139" Height="30" HorizontalAlignment="Left" Margin="304,338,0,66" Foreground="Red" FontSize="16"/>
+        <TextBox Text="Joshua Lengete" IsReadOnly="True" Width="153" Height="30" HorizontalAlignment="Left" Margin="587,338,0,66" Foreground="Red" FontSize="16"/>
+
+        <Button Content="Email Chairman" Width="120" Height="30" HorizontalAlignment="Left" Margin="34,377,0,27" Click="EmailChairman_Click"/>
+        <Button Content="Email Secretary" Width="120" Height="30" HorizontalAlignment="Left" Margin="317,374,0,30" Click="EmailSecretary_Click"/>
+        <Button Content="Email Treasurer" Width="120" Height="30" HorizontalAlignment="Left" Margin="606,377,0,27" Click="EmailTreasurer_Click"/>
+    </Grid>
+</Window>

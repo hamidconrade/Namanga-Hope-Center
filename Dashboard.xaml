@@ -1,0 +1,25 @@
+﻿<Window x:Class="Namanga_Hope_Center.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Departments" Height="384" Width="800">
+
+    <Grid Margin="10,0,10,-6">
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="367" HorizontalAlignment="Left" Margin="204,-4,0,-5"/>
+        <Button Name="BeneficiariesButton" Content="Beneficiaries" Width="NaN" Height="40" Margin="62,59,526,0" VerticalAlignment="Top" Click="BeneficiariesButton_Click"/>
+        <Button Name="WelfareButton" Content="Welfare" Width="NaN" Height="40" Margin="62,129,526,0" VerticalAlignment="Top" Click="WelfareButton_Click"/>
+        <Button Name="FinanceButton" Content="Finance" Width="NaN" Height="40" Margin="62,196,526,0" VerticalAlignment="Top" Click="FinanceButton_Click"/>
+        <Button Name="SecurityButton" Content="Security" Width="NaN" Height="40" Margin="62,273,526,0" VerticalAlignment="Top" Click="SecurityButton_Click"/>
+
+        <Button Name="ProgramsButton" Content="Programs" Width="NaN" Height="40" Margin="550,59,32,0" VerticalAlignment="Top" Click="ProgramsButton_Click"/>
+        <Button Name="ManagementButton" Content="Management" Width="NaN" Height="40" Margin="550,129,32,0" VerticalAlignment="Top" Click="ManagementButton_Click"/>
+        <Button Name="ResourcesButton" Content="Resources" Width="NaN" Height="40" Margin="550,196,32,0" VerticalAlignment="Top" Click="ResourcesButton_Click"/>
+        <Button Name="AlumniButton" Content="Alumni" Width="NaN" Height="40" Margin="550,273,32,0" VerticalAlignment="Top" Click="AlumniButton_Click"/>
+        <TextBox x:Name="FlashingTextBox" Width="638" Height="44" HorizontalAlignment="Left" VerticalAlignment="Top" Text="WHICH DEPARTMENT DO YOU WISH TO VISIT?" IsReadOnly="True" TextWrapping="Wrap" Margin="62,6,0,0" FontSize="30" Background="Transparent"/>
+
+    </Grid>
+
+</Window>

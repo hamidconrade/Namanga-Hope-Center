@@ -1,0 +1,32 @@
+﻿<Window x:Class="Namanga_Hope_Center.FosterCare"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="FosterCare" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="401*"/>
+            <ColumnDefinition Width="399*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="0" Name="InfoTextBox"
+                 TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" 
+                 Margin="10,10,10,10">
+            Foster Care Program: 
+            Our foster care program provides children with safe and caring homes. 
+            We work with families to ensure that children grow up in a stable and loving environment. 
+            Children placed in foster care receive comprehensive support, including access to education, healthcare, and emotional well-being resources.
+        </TextBox>
+
+        <Image Grid.Column="1" Name="SlideshowImage" Stretch="Uniform"/>
+
+        <Button Content="Programs" x:Name="ProgramsButton" Height="40" Click="ProgramsButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,18" Width="200"/>
+
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="176" Height="136"
+               HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10"/>
+
+    </Grid>
+</Window>

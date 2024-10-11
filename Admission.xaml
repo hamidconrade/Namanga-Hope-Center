@@ -1,0 +1,36 @@
+﻿<Window x:Class="Namanga_Hope_Center.Admission"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Admission" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="AdmissionDataGrid" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name of Child" Binding="{Binding NameofChild}" />
+                <DataGridTextColumn Header="Date of Birth" Binding="{Binding DateOfBirth, StringFormat='{}{0:MM/dd/yyyy}'}" />
+                <DataGridTextColumn Header="Father's Name" Binding="{Binding FathersName}" />
+                <DataGridTextColumn Header="Mother's Name" Binding="{Binding MothersName}" />
+                <DataGridTextColumn Header="Guardian's Name" Binding="{Binding GuardiansName}" />
+                <DataGridTextColumn Header="Village" Binding="{Binding Village}" />
+                <DataGridTextColumn Header="School" Binding="{Binding School}" />
+                <DataGridTextColumn Header="Grade" Binding="{Binding Grade, StringFormat={}{0:N0}}" />
+                <DataGridTextColumn Header="Contact Info" Binding="{Binding ContactInfo}" />
+                <DataGridCheckBoxColumn Header="Male" Binding="{Binding Male}" />
+                <DataGridCheckBoxColumn Header="Female" Binding="{Binding Female}" />
+                <DataGridCheckBoxColumn Header="Foster Care" Binding="{Binding FosterCare}" />
+                <DataGridCheckBoxColumn Header="Drug Abuse Rehabilitation" Binding="{Binding DrugAbuseRehabilitation}" />
+                <DataGridCheckBoxColumn Header="Educational Support" Binding="{Binding EducationalSupport}" />
+                <DataGridCheckBoxColumn Header="Child Abuse Rehabilitation" Binding="{Binding ChildAbuseRehabilitation}" />
+                <DataGridCheckBoxColumn Header="Medicare" Binding="{Binding Medicare}" />
+                <DataGridCheckBoxColumn Header="Psychological Counselling" Binding="{Binding PsychologicalCounselling}" />
+                <DataGridCheckBoxColumn Header="Nutrition Support" Binding="{Binding NutritionSupport}" />
+                <DataGridTextColumn Header="Insert Passport" Binding="{Binding InsertPassport}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Submit" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom" Click="SubmitButton_Click"/>
+    </Grid>
+</Window>

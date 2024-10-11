@@ -1,0 +1,26 @@
+﻿<Window x:Class ="Namanga_Hope_Center.ChildAbuseRehabilitation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Child Abuse Rehabilitation" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="399*" />
+            <ColumnDefinition Width="401*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="0" 
+                 Text="Child Abuse Rehabilitation programs. NAMANGA HOPE CENTER is geographically located in a region prone to alot of child abuse and neglection due to the cultural practices. Incidences of coming of age rituals make boys men when they are yet to even learn how to tie a shoelace while girls are married of after a horrific FGM ordeal that kills some while leaving others with unimaginable physical and emotional suffering. This program seeks to rescue both girls, ...and boys then rehabilitate them back them into society for a normal upbringing and a recomended adulthood in which they have adequately persued their dreams. though noe has been rescued yet as of the last update of this program, NAMANGA HOPE CENTER recognises the need to set up this program and be ready for the eventuality that these kinds of interventions may need to be implemented as emergencies. " 
+                 IsReadOnly="True" 
+                 TextWrapping="Wrap"
+                 Margin="10,10,0,176" />
+
+        <Image Grid.Column="1" Name="SlideshowImage" Stretch="Uniform" Margin="14,10,10,10" />
+
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="240" Height="219" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-10,248,0,0"/>
+        <Button Content="Programs" x:Name="ProgramsButton" Height="40" Click="ProgramsButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Width="200"/>
+    </Grid>
+</Window>

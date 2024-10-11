@@ -1,0 +1,12 @@
+﻿<Window x:Class="Namanga_Hope_Center.Beneficiaries"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Beneficiaries" Height="450" Width="800">
+
+    <Grid>
+        <DataGrid x:Name="ResultsDataGrid" HorizontalAlignment="Left" Height="356" VerticalAlignment="Top" Width="790"/>
+        <Button x:Name="LoadButton" Content="Load Data" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="LoadButton_Click"/>
+        <Button x:Name="OpenAdmission" Content="Admission" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="OpenAdmissionButton_Click"/>
+        <Button x:Name="AddButton" Content="Siblings" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="AddButton_Click"/>
+    </Grid>
+</Window>

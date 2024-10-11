@@ -1,0 +1,26 @@
+﻿<Window x:Class="Namanga_Hope_Center.Programs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Programs" Height="450" Width="800">
+    <Grid Margin="0,0,0,0">
+        <StackPanel Margin="-9,-1,-9,-23">
+            <Button Content="Foster Care" x:Name="FosterCareButton" Height="40" Click="FosterCareButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Educational Support" x:Name="EducationalSupportButton" Height="40" Click="EducationalSupportButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Nutritional Support" x:Name="NutritionalSupportButton" Height="40" Click="NutritionalSupportButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Medicare" x:Name="MedicareButton" Height="40" Click="MedicareButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Drug Abuse Rehabilitation" x:Name="DrugAbuseRehabilitationButton" Height="40" Click="DrugAbuseRehabilitationButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Child Abuse Rehabilitation" x:Name="ChildAbuseRehabilitationButton" Height="40" Click="ChildAbuseRehabilitationButton_Click" Panel.ZIndex="1"/>
+            <Button Content="Psychological Support" x:Name="PsychologicalSupportButton" Height="40" Click="PsychologicalSupportButton_Click" Panel.ZIndex="1"/>
+
+        </StackPanel>
+
+        <Image Source="pack://application:,,,/Resources/logo.png" Width="277" Height="285" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,-1,0,0"/>
+        <Image Source="pack://application:,,,/Resources/mike.jpg" Width="313" Height="194" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,240,0,0" Panel.ZIndex="0"/>
+        <Image Source="pack://application:,,,/Resources/IMG_0330.jpg" Width="323" Height="228" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="505,219,0,0"/>
+        <Image Source="pack://application:,,,/Resources/lesson.jpg" Width="323" Height="228" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="505,0,0,0"/>
+    </Grid>
+</Window>

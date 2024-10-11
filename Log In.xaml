@@ -1,0 +1,44 @@
+﻿<Window x:Class="Namanga_Hope_Center.Log_In"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Namanga_Hope_Center"
+        mc:Ignorable="d"
+        Title="Log_In" Height="450" Width="800">
+    <Grid>
+
+        <TextBox Text="Thank you for visiting Namanga Hope Center"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Bottom"
+                 Width="442" Height="33"
+                 IsReadOnly="True"
+                 Background="Transparent"
+                 BorderBrush="Transparent"
+                 FontSize="22"
+                 TextAlignment="Center"
+                 Margin="-47,0,0,136" RenderTransformOrigin="0.5,0.5">
+
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-41.731"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <Image Source="pack://application:,,,/Resources/logo.png" 
+               Width="443" Height="425"
+               HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+               Margin="355,0,0,-1"/>
+
+        <Label Content="Username:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,40,0,0"/>
+        <TextBox Name="UsernameBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Margin="150,36,0,0"/>
+        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,80,0,0"/>
+        <PasswordBox Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Margin="150,80,0,0"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,80,0,0"/>
+        <Button Content="Log In" Width="100" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20" Click="LogInButton_Click"/>
+    </Grid>
+</Window>
