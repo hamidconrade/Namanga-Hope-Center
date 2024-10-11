@@ -1,0 +1,433 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Namanga_Hope_Center
+</name>
+</assembly>
+<members>
+<member name="T:Namanga_Hope_Center.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Namanga_Hope_Center.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:Namanga_Hope_Center.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Namanga_Hope_Center.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Alumni">
+<summary>
+Alumni
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Alumni.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Basics">
+<summary>
+Basics
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Basics.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Beneficiaries">
+<summary>
+Beneficiaries
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Beneficiaries.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.ChildAbuseRehabilitation">
+<summary>
+ChildAbuseRehabilitation
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.ChildAbuseRehabilitation.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.DrugAbuseRehabilitation">
+<summary>
+DrugAbuseRehabilitation
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.DrugAbuseRehabilitation.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.EducationalSupport">
+<summary>
+EducationalSupport
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.EducationalSupport.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.FosterCare">
+<summary>
+FosterCare
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.FosterCare.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Medicare">
+<summary>
+Medicare
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Medicare.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.NutritionalSupport">
+<summary>
+NutritionalSupport
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.NutritionalSupport.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Programs">
+<summary>
+Programs
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Programs.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.PsychologicalSupport">
+<summary>
+PsychologicalSupport
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.PsychologicalSupport.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Sibling">
+<summary>
+Sibling
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Sibling.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Admission">
+<summary>
+Admission
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Admission.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Dashboard">
+<summary>
+Dashboard
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Dashboard.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.LoadingWindow">
+<summary>
+LoadingWindow
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.LoadingWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.Log_In">
+<summary>
+Log_In
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.Log_In.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Namanga_Hope_Center.App">
+<summary>
+App
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.App.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Namanga_Hope_Center.App.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Board">
+<summary>
+Board
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Board.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Committees">
+<summary>
+Committees
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Committees.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Director">
+<summary>
+Director
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Director.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Fieldwork">
+<summary>
+Fieldwork
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Fieldwork.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Finance">
+<summary>
+Finance
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Finance.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Firstaid">
+<summary>
+Firstaid
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Firstaid.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.HR">
+<summary>
+HR
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.HR.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Management">
+<summary>
+Management
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Management.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Mentorship">
+<summary>
+Mentorship
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Mentorship.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Publicity">
+<summary>
+Publicity
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Publicity.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Recreation">
+<summary>
+Recreation
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Recreation.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Religion">
+<summary>
+Religion
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Religion.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Resources">
+<summary>
+Resources
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Resources.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Schooling">
+<summary>
+Schooling
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Schooling.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Secretary">
+<summary>
+Secretary
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Secretary.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Sections">
+<summary>
+Sections
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Sections.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Security">
+<summary>
+Security
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Security.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Stores">
+<summary>
+Stores
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Stores.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Treasurer">
+<summary>
+Treasurer
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Treasurer.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Namanga_Hope_Center.Welfare">
+<summary>
+Welfare
+</summary>
+</member>
+<member name="M:Namanga_Hope_Center.Welfare.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
