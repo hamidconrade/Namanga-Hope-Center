@@ -6,24 +6,17 @@ Imports System.Text.RegularExpressions
 Imports System.Windows.Controls
 
 Class Finance
-
     Public Sub New()
         InitializeComponent()
     End Sub
-
     Private Async Function GetMpesaAccessToken() As Task(Of String)
         Try
             Dim client As New HttpClient()
-
             Dim credentials As String = Convert.ToBase64String(Encoding.ASCII.GetBytes("YourConsumerKey:YourConsumerSecret"))
-
             client.DefaultRequestHeaders.Authorization = New AuthenticationHeaderValue("Basic", credentials)
-
             Dim response = Await client.GetStringAsync("https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials")
             Dim jsonResponse = JsonConvert.DeserializeObject(Of Dictionary(Of String, String))(response)
-
             Return jsonResponse("access_token")
-
         Catch ex As Exception
             MessageBox.Show("Error retrieving access token: " & ex.Message, "Error")
             Return Nothing
@@ -41,9 +34,7 @@ Class Finance
     Private Async Function InitiateSTKPush(accessToken As String, amount As Decimal) As Task
         Try
             Dim client As New HttpClient()
-
             client.DefaultRequestHeaders.Authorization = New AuthenticationHeaderValue("Bearer", accessToken)
-
             Dim requestBody As New Dictionary(Of String, String) From {
                 {"BusinessShortCode", "6700292"},
                 {"Password", GeneratePassword()},
@@ -57,11 +48,8 @@ Class Finance
                 {"AccountReference", "DonationXYZ"},
                 {"TransactionDesc", "Donation to Namanga Hope Center"}
             }
-
             Dim content As New StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json")
-
             Dim response = Await client.PostAsync("https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest", content)
-
             If response.IsSuccessStatusCode Then
                 MessageBox.Show("STK Push sent! Check your phone to complete the transaction.", "Success")
             Else
@@ -82,7 +70,6 @@ Class Finance
             End If
 
             Dim accessToken = Await GetMpesaAccessToken()
-
             If accessToken IsNot Nothing Then
                 Await InitiateSTKPush(accessToken, donationAmount)
             End If
